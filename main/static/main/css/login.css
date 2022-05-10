@@ -4,7 +4,7 @@
 
 main {
     margin: 20px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .login_main {
@@ -12,6 +12,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: #262626;
 }
 
 .login_main a:hover{
@@ -33,6 +34,7 @@ main {
 .login_main .logo>img {
     width: 100%;
     height: auto;
+    filter: invert(1);
 }
 
 .login_form {
@@ -54,6 +56,8 @@ main {
     align-items: center;
     margin-top: 50px;
     width: 255px;
+    background-color: #ccb600;
+    
 }
 
 .py_form>input {
@@ -64,6 +68,7 @@ main {
     width: 250px;
     border: 0;
     background: unset;
+    color: black;
 }
 
 .conf_button_b {
@@ -87,6 +92,7 @@ main {
     background: url(../images/login_button.svg) !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+    filter: invert(0.5);
 }
 
 .conf_button:hover .button_backing {
@@ -97,6 +103,7 @@ main {
 
 .conf_button>div:nth-child(2) {
     margin-top: 50px;
+    color: rgb(121, 121, 121);
 }
 
 .login_main>p{
