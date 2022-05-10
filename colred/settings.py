@@ -130,7 +130,7 @@ LOGIN_REDIRECT_URL = 'main_page'
 LOGOUT_REDIRECT_URL = '/login'
 
 X_FRAME_OPTIONS = '*'
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['fa6dea21-5615-4c8a-9e39-a3a46552618b.id.repl.co']
 CSRF_TRUSTED_ORIGINS = ['https://COLRED-DnD.pulnet.repl.co']
 
 MEDIA_URL = '/media/'
